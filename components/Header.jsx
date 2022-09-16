@@ -39,6 +39,7 @@ const Header = () => {
             ref={searchInputRef}
             className="flex-grow w-full focus:outline-none"
             type="text"
+            defaultValue={router.query.term}
           />
           <XCircleIcon
             className="h-6 cursor-pointer text-gray-500 transition duration-100 transform hover:scale-125 sm:mr-3"
